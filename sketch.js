@@ -3,7 +3,7 @@ var bg;
 var y = 0;
 
 function setup() {
-
+  createCanvas(800,800);
   bg = loadImage("space.jpg");
   img = loadImage("moon.png");
 
