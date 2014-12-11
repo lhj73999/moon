@@ -1,3 +1,4 @@
+var img;
 var bg;
 var y = 0;
 
@@ -35,4 +36,4 @@ function draw() {
    var duration = 5000;
    var timing = (new Date()%duration)/duration;
 
-   fi
+}
