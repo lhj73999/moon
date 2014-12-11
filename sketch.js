@@ -5,7 +5,7 @@ function setup() {
   createCanvas(800,800);
   bg = loadImage("space.jpg");
   img = loadImage("moon.png");
-  img2 = loadImage("moon.png");
+  img2 = loadImage("boo.png");
   img3 = loadImage("mooo.png");
  
 
