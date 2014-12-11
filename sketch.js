@@ -6,7 +6,7 @@ function setup() {
   // The background image must be the same size as the parameters
   // into the size() method. In this program, the size of the image
   // is 710x400 pixels.
-  bg = loadImage("space.png");
+  bg = loadImage("space.jpg");
   img = loadImage("earth.png");
   img2 = loadImage("moon.png");
   img3 = loadImage("neptune.png");
