@@ -10,8 +10,8 @@ function setup() {
 function draw() {
    background(bg);
   
-   noFfill();
-   noStroke();
+   fill(255,64,64);
+   noStroke()
 
    var duration = 4000;
    var timing = (new Date()%duration)/duration;
