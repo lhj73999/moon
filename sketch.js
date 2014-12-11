@@ -21,7 +21,10 @@ function draw() {
 
    image(img,400 + Math.cos(timing*2*PI)*200-100,       
         400 + Math.sin(timing*2*PI)*200-100,200,200);  
-
+ 
+ var duration = 3000;
+   var timing = (new Date()%duration)/duration;
+ 
         image(img2,400 + Math.cos(timing*2*PI)*200-100,       
         400 + Math.sin(timing*2*PI)*200-100,200,200);                                 
 } 
