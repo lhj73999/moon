@@ -5,6 +5,8 @@ function setup() {
   createCanvas(800,800);
   bg = loadImage("space.jpg");
   img = loadImage("moon.png");
+  img2 = loadImage("moon.png");
+
 
 }
 
@@ -18,5 +20,8 @@ function draw() {
    var timing = (new Date()%duration)/duration;
 
    image(img,400 + Math.cos(timing*2*PI)*200-100,       
+        400 + Math.sin(timing*2*PI)*200-100,200,200);  
+
+        image(img2,400 + Math.cos(timing*2*PI)*200-100,       
         400 + Math.sin(timing*2*PI)*200-100,200,200);                                 
 } 
